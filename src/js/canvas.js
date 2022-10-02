@@ -207,7 +207,7 @@ function animate() {
     player.update()
  
 
-    if (keys.right.pressed && player.position.x < 400) {
+    if (keys.right.pressed && player.position.x < 1100) {
         player.velocity.x = 5
     }else if ((keys.left.pressed && player.position.x > 100) || (keys.left.pressed && scrollOffset === 0 && player.position.x > 0)) {
         player.velocity.x = -5
@@ -275,7 +275,15 @@ addEventListener('keydown', ({ keyCode }) => {
         case 87:
             console.log('up')
             player.velocity.y -= 10
-            window.location.href = "https://google.com"
+            if(player.position.x > 520 && player.position.x <670)
+            {
+              //window.location.href = "https://google.com"
+            }
+            if(player.position.x > 970 && player.position.x <1100)
+            {
+              //window.location.href = "https://google.com"
+            }
+
             break
 
     }
