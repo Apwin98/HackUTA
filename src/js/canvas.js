@@ -277,11 +277,11 @@ addEventListener('keydown', ({ keyCode }) => {
             player.velocity.y -= 10
             if(player.position.x > 520 && player.position.x <670)
             {
-              //window.location.href = "https://google.com"
+              window.location.href = "https://statefarm-insurance.web.app/"
             }
             if(player.position.x > 970 && player.position.x <1100)
             {
-              //window.location.href = "https://google.com"
+              window.location.href = "https://statefarm-insurance-93b6e.web.app/"
             }
 
             break
